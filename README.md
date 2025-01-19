@@ -85,7 +85,7 @@ Your frontend will run on `http://localhost:5173` by default.
 3. Open the frontend in your browser and see the latest stories and updates.
 
 ## Cron Job
-- The backend automatically scrapes new stories every minute using `node-cron`.
+- The backend automatically scrapes new stories every 5 minute using `node-cron`.
 
 ## API Endpoints
 - `GET /api/stories`: Fetch all stories from the database.
